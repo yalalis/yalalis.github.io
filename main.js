@@ -37,7 +37,7 @@ function embedDashboard(urlQuicksight) {
         },
         scrolling: "no",
         height: "700px",
-        width: "1000px"
+        width: "500px"
     };
     dashboard = QuickSightEmbedding.embedDashboard(options);
 }
