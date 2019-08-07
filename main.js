@@ -1,7 +1,7 @@
-var newScript = document.createElement("script");
-var target = document.getElementById("quicksight");
-newScript.src = "https://unpkg.com/amazon-quicksight-embedding-sdk@1.0.3/dist/quicksight-embedding-js-sdk.min.js";
-target.appendChild(newScript);
+//var newScript = document.createElement("script");
+//var target = document.getElementById("quicksight");
+//newScript.src = "https://unpkg.com/amazon-quicksight-embedding-sdk@1.0.3/dist/quicksight-embedding-js-sdk.min.js";
+//target.appendChild(newScript);
 
 var dashboard
 var url
@@ -10,7 +10,6 @@ function loadDashboard() {
 
     callApi(apiUrl, formatRequestBody(getParameters()))
       .then(data => {
-        console.log(JSON.stringify(data));
         url = getUrl(JSON.stringify(data));
         embedDashboard(url);
         //getQR(url);
