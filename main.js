@@ -1,8 +1,3 @@
-//var newScript = document.createElement("script");
-//var target = document.getElementById("quicksight");
-//newScript.src = "https://unpkg.com/amazon-quicksight-embedding-sdk@1.0.3/dist/quicksight-embedding-js-sdk.min.js";
-//target.appendChild(newScript);
-
 var dashboard
 var url
 var apiUrl = 'https://xzjsawhllk.execute-api.us-east-1.amazonaws.com/test/dashboard';
